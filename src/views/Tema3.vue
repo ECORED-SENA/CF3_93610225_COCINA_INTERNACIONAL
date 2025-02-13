@@ -92,74 +92,74 @@
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
         img(src="@/assets/curso/temas/tema3/img-4.png" data-aos="fade-left").mx-auto
       
+    .bg-image
+      .d-flex.justify-content-start.mb-5
+        .titulo-segundo-nivel
+          img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+          h2(data-aos="fade-left" style="width: 220px") #[em Risotto milanés]
 
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
-        h2(data-aos="fade-left" style="width: 220px") #[em Risotto milanés]
-
-    .d-flex.flex-wrap.justify-content-center.mb-5
-      .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
-        p(data-aos="fade-left") Arroz cremoso italiano preparado con azafrán, mantequilla y queso parmesano.
-        .lista-ingredientes.mb-3(data-aos="fade-left")
-          .d-flex.flex-wrap.align-items-start
-            p.w-100.fw-bold Ingredientes para 5 personas:
-            .col-12.col-md-6.col-xl-5
-              ul.ul-marker-check.mb-0
-                li Arroz arbóreo: 250 g
-                li Consomé de pollo: 250 ml
-                li Azafrán: 0.25 g
-                li Espárragos verdes: 100 g
-                li Mantequilla: 40 g
-            .col-12.col-md-6.col-xl-5
-              ul.ul-marker-check
-                li Queso parmesano: 40 g
-                li Vino blanco: 100 ml
-                li Crema de leche: 40 g
-                li Cebolla cabezona blanca: 30 g
-                li Ajo: 5 g
-            .col-auto.d-none.d-xl-flex
-              img(src="@/assets/curso/temas/tema3/img-7.svg").img65
-        p.mb-0 #[strong Preparación]
-          br
-          | El pollo se marina con vino y luego se dora muy bien. Se espolvorea harina y se dispone en una bandeja, a la que se le agrega el resto de los ingredientes. Se hornea durante 35 minutos con la bandeja tapada. Se sirve caliente, permitiendo disfrutar de la combinación de aromas.
-      .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
-        img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left").mx-auto
-    
-    .d-flex.flex-wrap.justify-content-center.mb-5
-      .col-lg-3.mb-4
-        img(src="@/assets/curso/temas/tema3/img-8.png" data-aos="fade-left").mx-auto
-      .col-lg-9.ps-lg-3.mb-4
-        p(data-aos="fade-left") El proceso de preparación es.
-        ol.lista-ol--cuadro
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 1
-            | Saltear la cebolla y el ajo finamente picados con mantequilla durante 1 minuto a fuego medio.
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 2
-            | Adicionar el arroz y remover constantemente para permitir que se saltee.
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 3
-            | Incorporar el vino blanco y no dejar de remover.
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 4
-            | Adicionar el azafrán mezclado con sal y pulverizado previamente en un mortero.
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 5
-            | Agregar el consomé de pollo caliente en pequeñas cantidades, permitiendo que el arroz lo absorba antes de agregar más. Este proceso toma alrededor de 13 minutos.
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 6
-            | En el minuto 15, agregar los espárragos verdes pelados y el queso parmesano. Mezclar enérgicamente para obtener una preparación cremosa.
-          li.mb-4(data-aos="fade-left")
-            .lista-ol--cuadro__vineta.v--green
-              span.fw-bold(style="color: black") 7
-            | Servir caliente, asegurándose de que el arroz esté al dente.
+      .d-flex.flex-wrap.justify-content-center.mb-5
+        .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
+          p(data-aos="fade-left") Arroz cremoso italiano preparado con azafrán, mantequilla y queso parmesano.
+          .lista-ingredientes.mb-3(data-aos="fade-left")
+            .d-flex.flex-wrap.align-items-start
+              p.w-100.fw-bold Ingredientes para 5 personas:
+              .col-12.col-md-6.col-xl-5
+                ul.ul-marker-check.mb-0
+                  li Arroz arbóreo: 250 g
+                  li Consomé de pollo: 250 ml
+                  li Azafrán: 0.25 g
+                  li Espárragos verdes: 100 g
+                  li Mantequilla: 40 g
+              .col-12.col-md-6.col-xl-5
+                ul.ul-marker-check
+                  li Queso parmesano: 40 g
+                  li Vino blanco: 100 ml
+                  li Crema de leche: 40 g
+                  li Cebolla cabezona blanca: 30 g
+                  li Ajo: 5 g
+              .col-auto.d-none.d-xl-flex
+                img(src="@/assets/curso/temas/tema3/img-7.svg").img65
+          p.mb-0 #[strong Preparación]
+            br
+            | El pollo se marina con vino y luego se dora muy bien. Se espolvorea harina y se dispone en una bandeja, a la que se le agrega el resto de los ingredientes. Se hornea durante 35 minutos con la bandeja tapada. Se sirve caliente, permitiendo disfrutar de la combinación de aromas.
+        .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
+          img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left").mx-auto
+      
+      .d-flex.flex-wrap.justify-content-center.mb-5
+        .col-lg-3.mb-4
+          img(src="@/assets/curso/temas/tema3/img-8.png" data-aos="fade-left").mx-auto
+        .col-lg-9.ps-lg-3.mb-4
+          p(data-aos="fade-left") El proceso de preparación es.
+          ol.lista-ol--cuadro
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 1
+              | Saltear la cebolla y el ajo finamente picados con mantequilla durante 1 minuto a fuego medio.
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 2
+              | Adicionar el arroz y remover constantemente para permitir que se saltee.
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 3
+              | Incorporar el vino blanco y no dejar de remover.
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 4
+              | Adicionar el azafrán mezclado con sal y pulverizado previamente en un mortero.
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 5
+              | Agregar el consomé de pollo caliente en pequeñas cantidades, permitiendo que el arroz lo absorba antes de agregar más. Este proceso toma alrededor de 13 minutos.
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 6
+              | En el minuto 15, agregar los espárragos verdes pelados y el queso parmesano. Mezclar enérgicamente para obtener una preparación cremosa.
+            li.mb-4(data-aos="fade-left")
+              .lista-ol--cuadro__vineta.v--green
+                span.fw-bold(style="color: black") 7
+              | Servir caliente, asegurándose de que el arroz esté al dente.
 
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
@@ -213,7 +213,7 @@ export default {
 }
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 .audio-t3
   border: 3px solid #89A068
   background-color: #F3FAE9
@@ -221,4 +221,6 @@ export default {
     border: none
     .tarjeta-audio__texto
       color: #12263F
+.bg-image
+  background-position-y: 57%
 </style>

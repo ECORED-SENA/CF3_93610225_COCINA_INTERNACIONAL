@@ -35,30 +35,30 @@
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
         h2(data-aos="fade-left") #[em Blinis]
-    
-    .d-flex.flex-wrap.justify-content-center.mb-5
-      .col-lg-7.col-xl-8.pe-lg-3.mb-4
-        p(data-aos="fade-left") Son panqueques rusos hechos con harina, leche, levadura y mantequilla, servidos con caviar o salmón ahumado. Esta clásica preparación rusa requiere los siguientes ingredientes:
-        .lista-ingredientes(data-aos="fade-right")
-          .d-flex.flex-wrap.align-items-center
-            .col
-              p.fw-bold Ingredientes:
-              ul.ul-marker-check
-                li Harina de trigo: 250 g
-                li Leche: 500 ml
-                li Levadura: 10 g
-                li Mantequilla derretida: 40 g
-                li Huevos: 2 unidades
-                li Azúcar: 30 g
-                li Sal: 2 g
-            .col-auto.d-none.d-md-flex
-              img(src="@/assets/curso/temas/tema1/img-5.svg").img65
-      .col-lg-5.col-xl-4
-        img(src="@/assets/curso/temas/tema1/img-4.png" data-aos="fade-left").mx-auto
-    p(data-aos="fade-right") El proceso de  preparación es:
-    .col-xl-10.d-flex.flex-wrap.mx-auto.mb-5(style="background-color: #F9E69F")
-      img(src="@/assets/curso/temas/tema1/img-6.jpg" data-aos="fade-right").col-lg-5
-      p.p-4.col-lg-7.mb-0(data-aos="fade-left") La mitad de la harina se mezcla con la leche caliente y se deja reposar por 20 minutos. Al alcanzar una temperatura tibia (27 grados centígrados), se agrega la levadura y se deja fermentar durante al menos 1 hora. Posteriormente, se incorporan las yemas de huevo, azúcar, mantequilla y sal. Finalmente, se añaden las claras de huevo batidas a punto de nieve. La masa se cocina en un sartén con mantequilla, volteando las piezas para dorar ambos lados. Se sirven tradicionalmente con caviar, salmón ahumado o aguacate.
+    .bg-image
+      .d-flex.flex-wrap.justify-content-center.mb-5
+        .col-lg-7.col-xl-8.pe-lg-3.mb-4
+          p(data-aos="fade-left") Son panqueques rusos hechos con harina, leche, levadura y mantequilla, servidos con caviar o salmón ahumado. Esta clásica preparación rusa requiere los siguientes ingredientes:
+          .lista-ingredientes(data-aos="fade-right")
+            .d-flex.flex-wrap.align-items-center
+              .col
+                p.fw-bold Ingredientes:
+                ul.ul-marker-check
+                  li Harina de trigo: 250 g
+                  li Leche: 500 ml
+                  li Levadura: 10 g
+                  li Mantequilla derretida: 40 g
+                  li Huevos: 2 unidades
+                  li Azúcar: 30 g
+                  li Sal: 2 g
+              .col-auto.d-none.d-md-flex
+                img(src="@/assets/curso/temas/tema1/img-5.svg").img65
+        .col-lg-5.col-xl-4
+          img(src="@/assets/curso/temas/tema1/img-4.png" data-aos="fade-left").mx-auto
+      p(data-aos="fade-right") El proceso de  preparación es:
+      .col-xl-10.d-flex.flex-wrap.mx-auto.mb-5(style="background-color: #F9E69F")
+        img(src="@/assets/curso/temas/tema1/img-6.jpg" data-aos="fade-right").col-lg-5
+        p.p-4.col-lg-7.mb-0(data-aos="fade-left") La mitad de la harina se mezcla con la leche caliente y se deja reposar por 20 minutos. Al alcanzar una temperatura tibia (27 grados centígrados), se agrega la levadura y se deja fermentar durante al menos 1 hora. Posteriormente, se incorporan las yemas de huevo, azúcar, mantequilla y sal. Finalmente, se añaden las claras de huevo batidas a punto de nieve. La masa se cocina en un sartén con mantequilla, volteando las piezas para dorar ambos lados. Se sirven tradicionalmente con caviar, salmón ahumado o aguacate.
     
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
