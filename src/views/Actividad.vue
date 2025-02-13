@@ -253,7 +253,7 @@ export default {
             {
               id: 'b',
               texto: 'Destacan por sabores intensos y mediterráneos.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'c',

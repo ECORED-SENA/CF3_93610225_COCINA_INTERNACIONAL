@@ -40,25 +40,3 @@ npm run build
 npm run lint
 ```
 
-#
-
-## **Actualizar dist en GitHub Pages**
-
-#### 1. Entrar al repositorio en GitHub
-
-#### 2. Entrar a la pestaña "Actions"
-
-#### 3. Seleccionar "Crear Dist" en "workflows"
-
-#### 4. Hacer clik en "Run workflow"
-
-#### 5. Asegurar que "branch" sea master
-
-#### 6. Hacer clik "Run workflow
-
-![instrucciones despues del primer push](src/assets/template/pasos.jpg 'Title')
-
-#
-
-## **Documentacion AOS**
-[https://github.com/michalsnik/aos](https://github.com/michalsnik/aos)
