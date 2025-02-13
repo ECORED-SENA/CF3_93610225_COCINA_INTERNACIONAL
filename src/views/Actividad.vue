@@ -17,38 +17,37 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Cocina Europea',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar  las técnicas, ingredientes y platos tradicionales de la cocina europea, destacando la diversidad cultural y gastronómica de las regiones del Norte, Centro y Sur de Europa.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Cuál es uno de los ingredientes principales del <em>gravlax</em>?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Azúcar.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Sal de mar.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Salmón.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Pimienta.',
               esCorrecta: false,
             },
           ],
@@ -57,29 +56,28 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: '¿De qué país es tradicional el <em>lutefisk</em>?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Suecia.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Dinamarca.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
+              texto: 'Noruega.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Alemania.',
               esCorrecta: false,
             },
           ],
@@ -88,30 +86,30 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Qué tipo de queso no se menciona en la receta de fondue del documento?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Gruyere.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Parmesano',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: '<em>Tilsiter</em>.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Emmental.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -120,28 +118,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            '¿Qué técnica de conservación se utiliza para preparar chucrut?',
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Secado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Ahumado.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Fermentación.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Cocción al vapor.',
               esCorrecta: false,
             },
           ],
@@ -150,30 +148,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto:
+            '¿Cuál de los siguientes ingredientes no forma parte del risotto milanés?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
+              texto: 'Azafrán.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Anillos de calamar.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
+              texto: 'Queso parmesano.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Vino blanco.',
               esCorrecta: false,
             },
           ],
@@ -182,29 +179,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: '¿Con qué se suelen servir los pierogi?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Borrar componentes.',
+              texto: 'Queso.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
+              texto: 'Salsa de tomate.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Mantequilla.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Seleccionar y editar capas.',
+              texto: 'Ensalada verde.',
               esCorrecta: false,
             },
           ],
@@ -214,28 +210,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué especias se utilizan en las <em>köttbullar</em> según el documento?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
+              texto: 'Orégano y tomillo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
+              texto: 'Pimienta y clavo.',
               esCorrecta: false,
             },
             {
+              id: 'c',
+              texto: 'Nuez moscada y cardamomo.',
+              esCorrecta: true,
+            },
+            {
               id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
+              texto: 'Cilantro y perejil.',
               esCorrecta: false,
             },
           ],
@@ -245,28 +241,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Qué caracteriza a los platos de Europa del Sur según el documento?',
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Son dulces y ligeros.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Destacan por sabores intensos y mediterráneos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Tienen ingredientes fermentados.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Se preparan principalmente con carne de cerdo.',
               esCorrecta: false,
             },
           ],
@@ -275,20 +271,19 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'Los <em>blinis</em> son originarios de Rusia.',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -297,19 +292,19 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'El <em>gravlax</em> se sirve tradicionalmente con ensalada de repollo.',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto: 'Verdadero',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Falso',
-              esCorrecta: false,
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -318,19 +313,29 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál es el propósito del kirsch en la preparación del <em>fondue</em>?',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Endulzar el queso.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Agregar un toque aromático.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Espesar la mezcla.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Colorear el queso.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -339,18 +344,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Qué se hace con el repollo antes de iniciar la fermentación para preparar chucrut?',
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Se hierve',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Se mezcla con azúcar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se corta en julianas y se sala.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Se hornea.',
               esCorrecta: false,
             },
           ],
@@ -360,18 +375,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Cuál es el tipo de arroz recomendado para la paella de mariscos?',
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: '<em>Arborio</em>.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Bomba o <em>parbolizado</em>.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Integral.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Jazmín.',
               esCorrecta: false,
             },
           ],
@@ -381,19 +406,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Qué debe hacerse con el vino blanco al preparar risotto milanés?',
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Calentarlo previamente.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Incorporarlo al arroz y remover constantemente.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Agregarlo al final.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Usarlo solo como decoración.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -402,18 +437,28 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+            '¿Cómo se denomina el plato tradicional francés preparado con pollo marinado en vino tinto?',
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: '<em>Risotto</em>.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '<em>Quiche</em>.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '<em>Coq au vin</em>.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: '<em>Ratatouille</em>',
               esCorrecta: false,
             },
           ],
