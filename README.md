@@ -1,6 +1,6 @@
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/CF2_93610225_COCINA_INTERNACIONAL/#/](https://ecored-sena.github.io/CF3_93610225_COCINA_INTERNACIONAL/#/)
+[https://ecored-sena.github.io/CF3_93610225_COCINA_INTERNACIONAL/#/](https://ecored-sena.github.io/CF3_93610225_COCINA_INTERNACIONAL/#/)
 
 #
 
