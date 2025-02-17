@@ -11,7 +11,7 @@
 
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
         h2(data-aos="fade-left" style="width: 220px") Paella de mariscos
 
     .d-flex.flex-wrap.justify-content-center.mb-5
@@ -41,16 +41,16 @@
                 li Mix de vegetales (apio, cebolla cabezona blanca, zanahoria, puerro): 150 g
                 li Agua: 4 litros
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
-        img(src="@/assets/curso/temas/tema3/img-1.png" data-aos="fade-left").mx-auto
+        img(src="@/assets/curso/temas/tema3/img-1.png" data-aos="fade-left" alt="Paella de mariscos").mx-auto
     
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-5.col-xl-4.mb-4
-        img.mb-auto(src="@/assets/curso/temas/tema3/img-2.png" data-aos="fade-left")
+        img.mb-auto(src="@/assets/curso/temas/tema3/img-2.png" data-aos="fade-left" alt="mujer picando un pimenton")
       .col-lg-7.col-xl-8.ps-lg-3
         p(data-aos="fade-right") En el siguiente episodio, se explorará la preparación de un clásico lleno de historia y sabor: la paella de mariscos. Este plato emblemático combina texturas, colores y aromas que prometen conquistar cualquier paladar. A través de una guía paso a paso, descubrirán los secretos detrás de esta receta, aprendiendo cómo llevar a su mesa un bocado que evoca la riqueza de la cocina mediterránea.
         .tarjeta.d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.p-4(data-aos="fade-right" style="background-color: #C6E697")
           .col-auto
-            img(src="@/assets/curso/temas/tema3/img-3.svg")
+            img(src="@/assets/curso/temas/tema3/img-3.svg" Paella de mariscos)
           .col-12.col-xl
             p Lo invitamos a escuchar el siguiente Pódcast:
             .tarjeta.audio-t3.p-4
@@ -61,7 +61,7 @@
     
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
         h2(data-aos="fade-left" style="width: 220px") #[em Coq au vin]
 
     .d-flex.flex-wrap.justify-content-center.mb-5
@@ -85,17 +85,17 @@
                 li Perejil
                 li Sal
             .col-auto.d-none.d-xl-flex
-              img(src="@/assets/curso/temas/tema3/img-5.svg").img65
+              img(src="@/assets/curso/temas/tema3/img-5.svg" alt="imagen decorativa").img65
         p.mb-0 #[strong Preparación]
           br
           | El pollo se marina con vino y luego se dora muy bien. Se espolvorea harina y se dispone en una bandeja, a la que se le agrega el resto de los ingredientes. Se hornea durante 35 minutos con la bandeja tapada. Se sirve caliente, permitiendo disfrutar de la combinación de aromas.
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
-        img(src="@/assets/curso/temas/tema3/img-4.png" data-aos="fade-left").mx-auto
+        img(src="@/assets/curso/temas/tema3/img-4.png" data-aos="fade-left" alt="Estofado clásico de coq au vin con setas de pollo tiernas y cebollas adornadas").mx-auto
       
     .bg-image
       .d-flex.justify-content-start.mb-5
         .titulo-segundo-nivel
-          img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+          img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
           h2(data-aos="fade-left" style="width: 220px") #[em Risotto milanés]
 
       .d-flex.flex-wrap.justify-content-center.mb-5
@@ -119,16 +119,16 @@
                   li Cebolla cabezona blanca: 30 g
                   li Ajo: 5 g
               .col-auto.d-none.d-xl-flex
-                img(src="@/assets/curso/temas/tema3/img-7.svg").img65
+                img(src="@/assets/curso/temas/tema3/img-7.svg" alt="imagen decorativa").img65
           p.mb-0 #[strong Preparación]
             br
             | El pollo se marina con vino y luego se dora muy bien. Se espolvorea harina y se dispone en una bandeja, a la que se le agrega el resto de los ingredientes. Se hornea durante 35 minutos con la bandeja tapada. Se sirve caliente, permitiendo disfrutar de la combinación de aromas.
         .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
-          img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left").mx-auto
+          img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left" alt="plato de Risotto milanés").mx-auto
       
       .d-flex.flex-wrap.justify-content-center.mb-5
         .col-lg-3.mb-4
-          img(src="@/assets/curso/temas/tema3/img-8.png" data-aos="fade-left").mx-auto
+          img(src="@/assets/curso/temas/tema3/img-8.png" data-aos="fade-left" alt="Plato con delicioso plato de pasta italiana").mx-auto
         .col-lg-9.ps-lg-3.mb-4
           p(data-aos="fade-left") El proceso de preparación es.
           ol.lista-ol--cuadro
@@ -163,7 +163,7 @@
 
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in")
+        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
         h2(data-aos="fade-left" style="width: 220px") Ensalada griega
 
     .d-flex.flex-wrap.justify-content-center
@@ -187,12 +187,12 @@
                 li Sal
                 li Pimentón verde
             .col-auto.d-none.d-xl-flex
-              img(src="@/assets/curso/temas/tema3/img-10.svg").img65
+              img(src="@/assets/curso/temas/tema3/img-10.svg" alt="imagen decorativa").img65
         p.mb-0(data-aos="fade-left") #[strong Preparación]
           br
           | Todos los ingredientes se cortan en cubos y se mezclan. Se sirve frío, destacando la frescura de los ingredientes.
       .col-lg-5.order-1.order-lg-2.mb-4
-        img(src="@/assets/curso/temas/tema3/img-9.png" data-aos="fade-left").mx-auto
+        img(src="@/assets/curso/temas/tema3/img-9.png" data-aos="fade-left" alt="Ensalada con queso tomate pepino verde oliva en un tazón blanco sobre mesa de madera").mx-auto
 
 </template>
 
