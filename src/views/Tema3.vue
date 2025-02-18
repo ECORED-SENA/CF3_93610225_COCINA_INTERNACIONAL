@@ -12,7 +12,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left" style="width: 220px") Paella de mariscos
+        h3(data-aos="fade-left") Paella de mariscos
 
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
@@ -53,7 +53,7 @@
             img(src="@/assets/curso/temas/tema3/img-3.svg" Paella de mariscos)
           .col-12.col-xl
             p Lo invitamos a escuchar el siguiente Pódcast:
-            .tarjeta.audio-t3.p-4
+            .tarjeta.audio-t3.py-3.px-2
               TarjetaAudio.color-secundario.audio-c(
                 texto="Preparación de paella de mariscos"
                 :audio="require('@/assets/curso/temas/tema3/Audio-1.mp3')"
@@ -62,7 +62,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left" style="width: 220px") #[em Coq au vin]
+        h3(data-aos="fade-left") #[em Coq au vin]
 
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
@@ -96,7 +96,7 @@
       .d-flex.justify-content-start.mb-5
         .titulo-segundo-nivel
           img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-          h2(data-aos="fade-left" style="width: 220px") #[em Risotto milanés]
+          h3(data-aos="fade-left") #[em Risotto milanés]
 
       .d-flex.flex-wrap.justify-content-center.mb-5
         .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
@@ -164,7 +164,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left" style="width: 220px") Ensalada griega
+        h3(data-aos="fade-left") Ensalada griega
 
     .d-flex.flex-wrap.justify-content-center
       .col-lg-7.pe-lg-3.mb-4.order-2.order-lg-1
@@ -217,10 +217,19 @@ export default {
 .audio-t3
   border: 3px solid #89A068
   background-color: #F3FAE9
-  .audio-c
+  &:deep(.audio-c)
+    min-height: auto !important
     border: none
     .tarjeta-audio__texto
       color: #12263F
+      margin-bottom: 2rem !important
+    .audio
+      margin-bottom: auto
+    > div
+      align-items: flex-start !important
+    .audio__btn
+      margin-top: -2rem
+      background-color: #89A068
 .bg-image
   background-position-y: 57%
 </style>

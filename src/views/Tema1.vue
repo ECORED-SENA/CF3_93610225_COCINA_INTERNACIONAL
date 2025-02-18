@@ -12,18 +12,18 @@
     .d-flex.justify-content-start.mb-4
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Gravlax]
+        h3(data-aos="fade-left") #[em Gravlax]
     
-    .d-flex.flex-wrap.mb-4
-      .col-lg-8.col-xl-7.pe-lg-3
+    .d-flex.flex-wrap.justify-content-center.mb-4
+      .col-lg-8.col-xl-7.pe-lg-3.order-2.order-lg-1
         p.p-3(style="background: #E8F5D5" data-aos="fade-right") Una preparación sencilla a partir del uso del salmón de los mares del norte de Europa. Este salmón será sazonado con azúcar, sal de mar, eneldo y limón europeo (el limón amarillo) cortado en rodajas. A dos filetes de salmón se les frotará lo anteriormente descrito, se pondrán uno frente al otro y se deberán envolver con plástico adhesivo de manera fuerte, permitiendo que los líquidos se evacúen gradualmente y los sabores se impregnen en el filete.
         .d-flex.flex-wrap.justify-content-center.align-items-start.gap-4.p-3
           .col-auto(data-aos="fade-right")
             img(src="@/assets/curso/temas/tema1/img-2.svg" alt="imagen decorativa").img65
           .col-12.col-md
             p(data-aos="fade-left") El producto se refrigerará por un período no menor a 10 días, tiempo en el cual el salmón marinado se convertirá en #[em gravlax], adquiriendo una combinación de sabores entre salmón, ácido del limón, sal, azúcar y el perfume anisado del eneldo. Se retira el plástico y se corta en lonjas delgadas, sirviendo el #[em gravlax] con tostadas de pan blanco y queso crema para untar, ocasionalmente acompañado de alcaparras.
-      .col-lg-4.col-xl-5
-        img(src="@/assets/curso/temas/tema1/img-1.png" data-aos="fade-left" alt="delicioso aperitivo").mb-auto
+      .col-lg-4.col-xl-5.order-1.order-lg-2
+        img(src="@/assets/curso/temas/tema1/img-1.png" data-aos="fade-left" alt="delicioso aperitivo").mb-4
     
     .container-alert.tarjeta.mb-5
       .col-md-3.col-lg-2.decorador-alert(data-aos="fade-right")
@@ -34,7 +34,7 @@
     .d-flex.justify-content-start.mb-4
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Blinis]
+        h3(data-aos="fade-left") #[em Blinis]
     .bg-image
       .d-flex.flex-wrap.justify-content-center.mb-5
         .col-lg-7.col-xl-8.pe-lg-3.mb-4
@@ -63,7 +63,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Lutefisk]
+        h3(data-aos="fade-left") #[em Lutefisk]
 
     .d-flex.flex-wrap.mx-auto.mb-5(style="background-color: #E8F5D5")
       img(src="@/assets/curso/temas/tema1/img-7.jpg" data-aos="fade-right" alt="Ensalada de arenque con cebolla").col-lg-4
@@ -74,7 +74,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Köttbullar]
+        h3(data-aos="fade-left") #[em Köttbullar]
 
     .d-flex.flex-wrap.mx-auto(style="background-color: #E8F5D5")
       img(src="@/assets/curso/temas/tema1/img-9.jpg" data-aos="fade-right" alt="Albóndigas en salsa de tomate agridulce y albahaca en un tazón de madera").col-lg-4

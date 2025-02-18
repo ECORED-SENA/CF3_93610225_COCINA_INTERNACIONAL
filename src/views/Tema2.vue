@@ -12,7 +12,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Borsch]
+        h3(data-aos="fade-left") #[em Borsch]
     
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
@@ -31,7 +31,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Fondue]
+        h3(data-aos="fade-left") #[em Fondue]
     
     .d-flex.flex-wrap.justify-content-center.mb-4
       .col-lg-8.col-xl-7.pe-lg-3.order-2.order-lg-1
@@ -63,13 +63,12 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Chucrut]
+        h3(data-aos="fade-left") #[em Chucrut]
     
     p(data-aos="fade-left") Es repollo fermentado acompañado de salchichas alemanas, preparado mediante deshidratación con sal y fermentación.
 
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
-        p(data-aos="fade-left") Es una espectacular sopa de remolacha, aunque se prepara en Rusia y algunos países de Europa, la versión de la cual vamos a hablar en esta actividad tiene que ver con el referente polaco.
         .lista-ingredientes.mb-3(data-aos="fade-left")
           .d-flex.flex-wrap.align-items-center
             .col
@@ -99,7 +98,7 @@
     .d-flex.justify-content-start.mb-5
       .titulo-segundo-nivel
         img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h2(data-aos="fade-left") #[em Pierogi]
+        h3(data-aos="fade-left") #[em Pierogi]
     
     .d-flex.flex-wrap.mx-auto(style="background-color: #E8F5D5")
       img(src="@/assets/curso/temas/tema2/img-9.jpg" data-aos="fade-right" alt="A close up of a food").col-lg-4

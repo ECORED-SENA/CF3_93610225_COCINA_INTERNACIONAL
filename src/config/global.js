@@ -8,15 +8,15 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -87,11 +87,11 @@ export default {
         titulo: 'Descargar PDF',
         download: 'downloads/93610225_CF3.pdf',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -112,15 +112,14 @@ export default {
       referencia:
         'Munchies. (2020). <em>How To Make Swedish Meatballs with Emma Bengtsson</em>. [Archivo de video] Youtube.',
       tipo: 'Video',
-      descarga:
-        'https://www.youtube.com/watch?v=715fmvx0TKw&ab_channel=Munchies',
+      link: 'https://www.youtube.com/watch?v=715fmvx0TKw&ab_channel=Munchies',
     },
     {
       tema: 'Europa Central',
       referencia:
         'Recetas de Esbieta. (2021). <em>Borsch</em> o sopa de remolacha - Receta ORIGINAL. [Archivo de video] Youtube.',
       tipo: 'Video',
-      descarga:
+      link:
         'https://www.youtube.com/watch?v=DNDGjsGvOZo&ab_channel=RecetasdeEsbieta',
     },
     {
@@ -128,7 +127,7 @@ export default {
       referencia:
         'Papá Felice - Sabor de Italia. (2022). Trucos y Secretos para un RISOTTO italiano a la Milanese PERFECTO. [Archivo de video] Youtube.',
       tipo: 'Video',
-      descarga:
+      link:
         'https://www.youtube.com/watch?v=yVwIJSsDrKY&ab_channel=Pap%C3%A1Felice-SabordeItalia',
     },
     {
@@ -136,7 +135,7 @@ export default {
       referencia:
         'TULIO Recomienda. (2021). ¿Cómo hacer una Paella Casera?! | Receta Fácil y Rápida. [Archivo de video] Youtube.',
       tipo: 'Video',
-      descarga:
+      link:
         'https://www.youtube.com/watch?v=DNin1AD-WUQ&ab_channel=TULIORecomienda',
     },
   ],
@@ -147,7 +146,7 @@ export default {
         'panqueques rusos elaborados con harina, leche, levadura y mantequilla.',
     },
     {
-      termino: '<em>Borsch</em>>',
+      termino: '<em>Borsch</em>',
       significado:
         'sopa de remolacha tradicional en Europa del este, especialmente en Polonia y Rusia.',
     },
@@ -159,7 +158,7 @@ export default {
     {
       termino: '<em>Fondue</em>',
       significado:
-        'mezcla de quesos fundidos con ajo, vino blanco y kirsch, típica de suiza.',
+        'mezcla de quesos fundidos con ajo, vino blanco y <em>kirsch</em>, típica de suiza.',
     },
     {
       termino: '<em>Gravlax</em>',

@@ -118,7 +118,7 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué técnica de conservación se utiliza para preparar chucrut?',
+            '¿Qué técnica de conservación se utiliza para preparar <em>chucrut</em>?',
           imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -149,7 +149,7 @@ export default {
         {
           id: 5,
           texto:
-            '¿Cuál de los siguientes ingredientes no forma parte del risotto milanés?',
+            '¿Cuál de los siguientes ingredientes no forma parte del <em>Risotto</em> milanés?',
           imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -313,7 +313,7 @@ export default {
         {
           id: 11,
           texto:
-            '¿Cuál es el propósito del kirsch en la preparación del <em>fondue</em>?',
+            '¿Cuál es el propósito del <em>kirsch</em> en la preparación del <em>fondue</em>?',
           imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -344,7 +344,7 @@ export default {
         {
           id: 12,
           texto:
-            '¿Qué se hace con el repollo antes de iniciar la fermentación para preparar chucrut?',
+            '¿Qué se hace con el repollo antes de iniciar la fermentación para preparar <em>chucrut</em>?',
           imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
@@ -406,7 +406,7 @@ export default {
         {
           id: 14,
           texto:
-            '¿Qué debe hacerse con el vino blanco al preparar risotto milanés?',
+            '¿Qué debe hacerse con el vino blanco al preparar <em>risotto</em> milanés?',
           imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
