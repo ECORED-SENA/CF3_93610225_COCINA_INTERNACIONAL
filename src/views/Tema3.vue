@@ -230,6 +230,9 @@ export default {
     .audio__btn
       margin-top: -2rem
       background-color: #89A068
+    .tarjeta-audio__input input[type=range]
+      background: #89A068
+      background-image: linear-gradient(#C6E697, #C6E697)
 .bg-image
   background-position-y: 57%
 </style>

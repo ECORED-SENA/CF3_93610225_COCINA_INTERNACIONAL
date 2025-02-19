@@ -24,11 +24,14 @@
   100%
     transform: translateY(0px)
 
-.banner-principal
-  .banner-principal__row
-    .banner-principal__img
-      img
-        max-width: 450px !important
+.contenedor-principal .seccion-principal .banner-principal .tarjeta
+  background-position: left 50%
+  @media (max-width: $bp-max-lg)
+    background-image: url("../assets/curso/portada/fondo-banner-principal_lg.png") !important
+    background-position: left bottom !important
+  @media (max-width: $bp-max-md)
+    background-image: url("../assets/curso/portada/fondo-banner-principal_md.png") !important
+    background-position: left 0% !important
 .banner-interno__fondo
   background-image: url('../assets/curso/portada/fondo-header-page.jpg') !important
 
