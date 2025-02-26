@@ -9,7 +9,7 @@
         figure
           img(src="@/assets/curso/temas/Sintesis.svg", alt="Síntesis de  la cocina europea como una fusión de tradiciones, ingredientes locales y técnicas únicas. Se destacan tres regiones: Europa del Norte, con platos como gravlax, blinis, lutefisk y köttbullar; Europa Central, con borsch, fondue, choucroute y pierogi; y Europa del Sur, con preparaciones como paella, coq au vin, risotto milanés y ensalada griega.")
     .d-flex.justify-content-center
-      a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+      a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
         .anexo__icono
           img(src="@/assets/bullets/icono-pdf.svg")
         .anexo__texto
