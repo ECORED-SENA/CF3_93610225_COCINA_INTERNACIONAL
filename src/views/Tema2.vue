@@ -21,7 +21,7 @@
           .col-auto
             img(src="@/assets/curso/temas/tema2/img-2.svg" alt="imagen decorativa").img65
           .col-12.col-md
-            p Un consomé de carne es el punto de partida, en el cual se adicionará remolacha pelada y cortada en cubos, apio, zanahoria, cebolla cabezona, una pequeña cantidad de clavos de olor, laurel y tomillo. Cocinar hasta ablandar, retirar los clavos de olor y el laurel. Licuar y hemir nuevamente.
+            p Un consomé de carne es el punto de partida, en el cual se adicionará remolacha pelada y cortada en cubos, apio, zanahoria, cebolla cabezona, una pequeña cantidad de clavos de olor, laurel y tomillo. Cocinar hasta ablandar, retirar los clavos de olor y el laurel. Licuar y hervir nuevamente.
         p.mb-0(data-aos="fade-right") #[strong Importante].
           br
           | Siempre que licúe alguna crema, lleve al fuego nuevamente y hierva para prevenir algún tipo de fermentación generada por efecto de la oxigenación lograda en la preparación dentro de la licuadora por el movimiento de las cuchillas. Servir con tostadas de pan, con aros de cebolla, salmón y limón.

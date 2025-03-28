@@ -120,9 +120,6 @@
                   li Ajo: 5 g
               .col-auto.d-none.d-xl-flex
                 img(src="@/assets/curso/temas/tema3/img-7.svg" alt="imagen decorativa").img65
-          p.mb-0 #[strong Preparación]
-            br
-            | El pollo se marina con vino y luego se dora muy bien. Se espolvorea harina y se dispone en una bandeja, a la que se le agrega el resto de los ingredientes. Se hornea durante 35 minutos con la bandeja tapada. Se sirve caliente, permitiendo disfrutar de la combinación de aromas.
         .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
           img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left" alt="plato de Risotto milanés").mx-auto
       

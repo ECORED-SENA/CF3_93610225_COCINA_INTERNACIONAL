@@ -211,12 +211,6 @@ export default {
     },
     {
       referencia:
-        'Las Comidas Típicas. (s.f.). <em>Descubre las deliciosas recetas de comida típica europea</em>.',
-      link:
-        'https://www.lascomidastipicas.com/comida-tipica-de-europa-recetas/',
-    },
-    {
-      referencia:
         'Viajes Por Europa. (s.f.). <em>Los 10 platos más típicos de Europa</em>.',
       link: 'https://www.viajesporeuropa.eu/platos-mas-tipicos-de-europa/',
     },
@@ -248,7 +242,7 @@ export default {
         },
         {
           nombre: 'Paola Alexandra Moya',
-          cargo: 'Evaluadora Instruccional',
+          cargo: 'Evaluadora instruccional',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -259,7 +253,7 @@ export default {
       autores: [
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -271,19 +265,19 @@ export default {
         },
         {
           nombre: 'Alejandro Delgado Acosta',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Cristhian Giovanni Gordillo Segura',
-          cargo: 'Intérprete Lenguaje de señas',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniela Muñoz Bedoya',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -300,25 +294,25 @@ export default {
       autores: [
         {
           nombre: 'Aixa Natalia Sendoya Fernández',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Raúl Mosquera Serrano',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
