@@ -4,7 +4,7 @@
 
 #
 
-## **Configuración del proyecto**
+## **Configuración del proyecto SENA**
 
 ### 1. Se recomienda trabajar con [vs-code](https://code.visualstudio.com/)
 
