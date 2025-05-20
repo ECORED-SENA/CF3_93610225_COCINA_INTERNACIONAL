@@ -57,7 +57,7 @@ export default {
         {
           id: 2,
           texto: '¿De qué país es tradicional el <em>lutefisk</em>?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -88,7 +88,7 @@ export default {
           id: 3,
           texto:
             '¿Qué tipo de queso no se menciona en la receta de fondue del documento?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -119,7 +119,7 @@ export default {
           id: 4,
           texto:
             '¿Qué técnica de conservación se utiliza para preparar <em>chucrut</em>?',
-          imagen: require('@/assets/actividad/img-1.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -150,7 +150,7 @@ export default {
           id: 5,
           texto:
             '¿Cuál de los siguientes ingredientes no forma parte del <em>Risotto</em> milanés?',
-          imagen: require('@/assets/actividad/img-2.png'),
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -211,7 +211,7 @@ export default {
           id: 7,
           texto:
             '¿Qué especias se utilizan en las <em>köttbullar</em> según el documento?',
-          imagen: require('@/assets/actividad/img-2.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -242,7 +242,7 @@ export default {
           id: 8,
           texto:
             '¿Qué caracteriza a los platos de Europa del Sur según el documento?',
-          imagen: require('@/assets/actividad/img-2.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -272,7 +272,7 @@ export default {
         {
           id: 9,
           texto: 'Los <em>blinis</em> son originarios de Rusia.',
-          imagen: require('@/assets/actividad/img-3.png'),
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -293,7 +293,7 @@ export default {
           id: 10,
           texto:
             'El <em>gravlax</em> se sirve tradicionalmente con ensalada de repollo.',
-          imagen: require('@/assets/actividad/img-3.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -345,7 +345,7 @@ export default {
           id: 12,
           texto:
             '¿Qué se hace con el repollo antes de iniciar la fermentación para preparar <em>chucrut</em>?',
-          imagen: require('@/assets/actividad/img-3.png'),
+          imagen: require('@/assets/actividad/img-4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -376,7 +376,7 @@ export default {
           id: 13,
           texto:
             '¿Cuál es el tipo de arroz recomendado para la paella de mariscos?',
-          imagen: require('@/assets/actividad/img-4.png'),
+          imagen: require('@/assets/actividad/img-1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -407,7 +407,7 @@ export default {
           id: 14,
           texto:
             '¿Qué debe hacerse con el vino blanco al preparar <em>risotto</em> milanés?',
-          imagen: require('@/assets/actividad/img-4.png'),
+          imagen: require('@/assets/actividad/img-2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -438,7 +438,7 @@ export default {
           id: 15,
           texto:
             '¿Cómo se denomina el plato tradicional francés preparado con pollo marinado en vino tinto?',
-          imagen: require('@/assets/actividad/img-4.png'),
+          imagen: require('@/assets/actividad/img-3.png'),
           barajarRespuestas: true,
           opciones: [
             {
