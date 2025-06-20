@@ -20,8 +20,10 @@ export default {
       tema: 'Cocina Europea',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar  las técnicas, ingredientes y platos tradicionales de la cocina europea, destacando la diversidad cultural y gastronómica de las regiones del Norte, Centro y Sur de Europa.',
+        '<b> Objetivo:</b> identificar  las técnicas, ingredientes y platos tradicionales de la cocina europea, destacando la diversidad cultural y gastronómica de las regiones del Norte, Centro y Sur de Europa.',
       barajarPreguntas: true,
+      titulo_aprobado: '¡BUEN TRABAJO!..',
+      titulo_reprobado: 'VUELVA A INTENTARLO..',
       preguntas: [
         {
           id: 1,
