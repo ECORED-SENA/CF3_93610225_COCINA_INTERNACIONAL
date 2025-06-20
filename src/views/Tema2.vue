@@ -7,14 +7,15 @@
         span 2
       h1 Europa Central
     
-    p.mb-5 La gastronomía de esta región combina ingredientes locales con influencias de diferentes países vecinos.
+    p La gastronomía de esta región combina ingredientes locales con influencias de diferentes países vecinos.
 
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") #[em Borsch]
+    Separador
+
+    #t_2_1
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.1 #[em Borsch]
     
-    .d-flex.flex-wrap.justify-content-center.mb-5
+    .d-flex.flex-wrap.justify-content-center
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
         p(data-aos="fade-left") Es una espectacular sopa de remolacha, aunque se prepara en Rusia y algunos países de Europa, la versión de la cual vamos a hablar en esta actividad tiene que ver con el referente polaco.
         .d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.p-3.mb-4(style="background: #F9E69F" data-aos="fade-right")
@@ -28,10 +29,11 @@
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
         img(src="@/assets/curso/temas/tema2/img-1.png" data-aos="fade-left" alt="sopa de remolacha de origen ucraniano").mx-auto
 
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") #[em Fondue]
+    Separador
+
+    #t_2_2
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.2 #[em Fondue]
     
     .d-flex.flex-wrap.justify-content-center.mb-4
       .col-lg-8.col-xl-7.pe-lg-3.order-2.order-lg-1
@@ -50,7 +52,7 @@
       .col-lg-4.col-xl-5.order-1.order-lg-2.mb-4
         img.mb-auto(src="@/assets/curso/temas/tema2/img-3.png" data-aos="fade-left" alt="Delicioso y cremoso queso derretido")
 
-    .d-flex.flex-wrap.justify-content-center.mb-5
+    .d-flex.flex-wrap.justify-content-center
       .col-lg-4.col-xl-5.mb-4
         img.mb-auto(src="@/assets/curso/temas/tema2/img-5.png" data-aos="fade-left" alt="Deliciosos bocadillos de queso derretido")
       .col-lg-8.col-xl-7.ps-lg-3
@@ -60,14 +62,16 @@
             img(src="@/assets/curso/temas/tema2/img-6.svg" alt="imagen decorativa").img65
           .col-12.col-md
             p Se introducen trozos de pan que deben salir cubiertos por esta fantástica combinación de quesos y sus aromas. También cuenta la tradición que a quien se le caiga uno de los trozos de pan dentro de la preparación deberá invitar el vino para todos.
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") #[em Chucrut]
+    
+    Separador
+
+    #t_2_3
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.3 #[em Chucrut]
     
     p(data-aos="fade-left") Es repollo fermentado acompañado de salchichas alemanas, preparado mediante deshidratación con sal y fermentación.
 
-    .d-flex.flex-wrap.justify-content-center.mb-5
+    .d-flex.flex-wrap.justify-content-center
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
         .lista-ingredientes.mb-3(data-aos="fade-left")
           .d-flex.flex-wrap.align-items-center
@@ -80,31 +84,33 @@
               img(src="@/assets/curso/temas/tema2/img-8.svg" alt="imagen decorativa").img65
         p El proceso de preparación es. 
         ol.lista-ol--cuadro
-          li
+          li.d-flex
             .lista-ol--cuadro__vineta.v--green(data-aos="fade-right")
               span.fw-bold(style="color: black") 1
             | Lavar muy bien el repollo y quitar algunas de las hojas externas y las partes cafés o negras, que pueden contener algún tipo de hongo.
-          li
+          li.d-flex
             .lista-ol--cuadro__vineta.v--green(data-aos="fade-right")
               span.fw-bold(style="color: black") 2
             | Cortar en julianas y pesar. Por cada 1000 g de repollo, adicionar 15 g de sal y llevar a un frasco de vidrio, presionando con un mortero para que los líquidos propios del repollo salgan por efecto de la deshidratación causada por la sal. Esto ocasionará la salmuera.
-          li
+          li.d-flex
             .lista-ol--cuadro__vineta.v--green(data-aos="fade-right")
               span.fw-bold(style="color: black") 3
             | Tapar y esperar mínimo cuatro semanas para consumir. Habitualmente se sirve con salchichas alemanas, de donde es originaria esta técnica.
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
         img(src="@/assets/curso/temas/tema2/img-7.png" data-aos="fade-left" alt="Sauerkraut en un cuenco en una mesa de madera Comida tradicional alemana").mx-auto
+    
+    Separador
 
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") #[em Pierogi]
+    #t_2_4
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 2.4 #[em Pierogi]
     
     .d-flex.flex-wrap.mx-auto(style="background-color: #E8F5D5")
       img(src="@/assets/curso/temas/tema2/img-9.jpg" data-aos="fade-right" alt="A close up of a food").col-lg-4
       .px-4.py-3.col-lg-8.mb-0(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema2/img-10.svg" style="max-width: 85px" alt="imagen decorativa").mb-3
         p.mb-0 Son raviolis polacos rellenos de carne o puré de papa, hervidos y servidos con mantequilla. Se trata de una masa sencilla a partir de huevo, harina de trigo, sal y agua. Se rellenan de carne de ternera o una mezcla de esta con cerdo, incluso con puré de papa en algunos casos. Posteriormente, se hierven en abundante agua hasta que suban a la superficie.
+
 </template>
 
 <script>

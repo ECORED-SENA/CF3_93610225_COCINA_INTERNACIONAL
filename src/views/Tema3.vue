@@ -9,10 +9,11 @@
 
     p(data-aos="fade-right") Esta región destaca por la diversidad de sabores mediterráneos y una riqueza cultural que se refleja en cada plato.
 
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") Paella de mariscos
+    Separador
+
+    #t_3_1
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 3.1 #[em Paella] de mariscos
 
     .d-flex.flex-wrap.justify-content-center.mb-5
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
@@ -43,11 +44,11 @@
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
         img(src="@/assets/curso/temas/tema3/img-1.png" data-aos="fade-left" alt="Paella de mariscos").mx-auto
     
-    .d-flex.flex-wrap.justify-content-center.mb-5
+    .d-flex.flex-wrap.justify-content-center
       .col-lg-5.col-xl-4.mb-4
         img.mb-auto(src="@/assets/curso/temas/tema3/img-2.png" data-aos="fade-left" alt="mujer picando un pimenton")
       .col-lg-7.col-xl-8.ps-lg-3
-        p(data-aos="fade-right") En el siguiente episodio, se explorará la preparación de un clásico lleno de historia y sabor: la paella de mariscos. Este plato emblemático combina texturas, colores y aromas que prometen conquistar cualquier paladar. A través de una guía paso a paso, descubrirán los secretos detrás de esta receta, aprendiendo cómo llevar a su mesa un bocado que evoca la riqueza de la cocina mediterránea.
+        p(data-aos="fade-right") En el siguiente episodio, se explorará la preparación de un clásico lleno de historia y sabor: la #[i paella] de mariscos. Este plato emblemático combina texturas, colores y aromas que prometen conquistar cualquier paladar. A través de una guía paso a paso, descubrirán los secretos detrás de esta receta, aprendiendo cómo llevar a su mesa un bocado que evoca la riqueza de la cocina mediterránea.
         .tarjeta.d-flex.flex-wrap.justify-content-center.align-items-center.gap-4.p-4(data-aos="fade-right" style="background-color: #C6E697")
           .col-auto
             img(src="@/assets/curso/temas/tema3/img-3.svg" Paella de mariscos)
@@ -58,13 +59,14 @@
                 texto="Preparación de paella de mariscos"
                 :audio="require('@/assets/curso/temas/tema3/Audio-1.mp3')"
               )
-    
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") #[em Coq au vin]
 
-    .d-flex.flex-wrap.justify-content-center.mb-5
+    Separador
+
+    #t_3_2
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 3.2 #[em Coq au vin]
+
+    .d-flex.flex-wrap.justify-content-center
       .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
         p(data-aos="fade-left") Es un pollo francés marinado en vino tinto, cocido con tocino, cebolla y hierbas aromáticas.
         .lista-ingredientes.mb-3(data-aos="fade-left")
@@ -91,77 +93,78 @@
           | El pollo se marina con vino y luego se dora muy bien. Se espolvorea harina y se dispone en una bandeja, a la que se le agrega el resto de los ingredientes. Se hornea durante 35 minutos con la bandeja tapada. Se sirve caliente, permitiendo disfrutar de la combinación de aromas.
       .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
         img(src="@/assets/curso/temas/tema3/img-4.png" data-aos="fade-left" alt="Estofado clásico de coq au vin con setas de pollo tiernas y cebollas adornadas").mx-auto
-      
-    .bg-image
-      .d-flex.justify-content-start.mb-5
-        .titulo-segundo-nivel
-          img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-          h3(data-aos="fade-left") #[em Risotto milanés]
+    
+    Separador
 
-      .d-flex.flex-wrap.justify-content-center.mb-5
-        .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
-          p(data-aos="fade-left") Arroz cremoso italiano preparado con azafrán, mantequilla y queso parmesano.
-          .lista-ingredientes.mb-3(data-aos="fade-left")
-            .d-flex.flex-wrap.align-items-start
-              p.w-100.fw-bold Ingredientes para 5 personas:
-              .col-12.col-md-6.col-xl-5
-                ul.ul-marker-check.mb-0
-                  li Arroz arbóreo: 250 g
-                  li Consomé de pollo: 250 ml
-                  li Azafrán: 0.25 g
-                  li Espárragos verdes: 100 g
-                  li Mantequilla: 40 g
-              .col-12.col-md-6.col-xl-5
-                ul.ul-marker-check
-                  li Queso parmesano: 40 g
-                  li Vino blanco: 100 ml
-                  li Crema de leche: 40 g
-                  li Cebolla cabezona blanca: 30 g
-                  li Ajo: 5 g
-              .col-auto.d-none.d-xl-flex
-                img(src="@/assets/curso/temas/tema3/img-7.svg" alt="imagen decorativa").img65
-        .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
-          img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left" alt="plato de Risotto milanés").mx-auto
-      
-      .d-flex.flex-wrap.justify-content-center.mb-5
-        .col-lg-3.mb-4
-          img(src="@/assets/curso/temas/tema3/img-8.png" data-aos="fade-left" alt="Plato con delicioso plato de pasta italiana").mx-auto
-        .col-lg-9.ps-lg-3.mb-4
-          p(data-aos="fade-left") El proceso de preparación es.
-          ol.lista-ol--cuadro
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 1
-              | Saltear la cebolla y el ajo finamente picados con mantequilla durante 1 minuto a fuego medio.
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 2
-              | Adicionar el arroz y remover constantemente para permitir que se saltee.
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 3
-              | Incorporar el vino blanco y no dejar de remover.
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 4
-              | Adicionar el azafrán mezclado con sal y pulverizado previamente en un mortero.
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 5
-              | Agregar el consomé de pollo caliente en pequeñas cantidades, permitiendo que el arroz lo absorba antes de agregar más. Este proceso toma alrededor de 13 minutos.
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 6
-              | En el minuto 15, agregar los espárragos verdes pelados y el queso parmesano. Mezclar enérgicamente para obtener una preparación cremosa.
-            li.mb-4(data-aos="fade-left")
-              .lista-ol--cuadro__vineta.v--green
-                span.fw-bold(style="color: black") 7
-              | Servir caliente, asegurándose de que el arroz esté al dente.
+    #t_3_3
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 3.3 #[em Risotto] milanés
 
-    .d-flex.justify-content-start.mb-5
-      .titulo-segundo-nivel
-        img(src="@/assets/curso/temas/tema1/img-titulo.svg" data-aos="zoom-in" alt="imagen decorativa")
-        h3(data-aos="fade-left") Ensalada griega
+    .d-flex.flex-wrap.justify-content-center.mb-5
+      .col-lg-7.col-xl-8.pe-lg-3.mb-4.order-2.order-lg-1
+        p(data-aos="fade-left") Arroz cremoso italiano preparado con azafrán, mantequilla y queso parmesano.
+        .lista-ingredientes.mb-3(data-aos="fade-left")
+          .d-flex.flex-wrap.align-items-start
+            p.w-100.fw-bold Ingredientes para 5 personas:
+            .col-12.col-md-6.col-xl-5
+              ul.ul-marker-check.mb-0
+                li Arroz arbóreo: 250 g
+                li Consomé de pollo: 250 ml
+                li Azafrán: 0.25 g
+                li Espárragos verdes: 100 g
+                li Mantequilla: 40 g
+            .col-12.col-md-6.col-xl-5
+              ul.ul-marker-check
+                li Queso parmesano: 40 g
+                li Vino blanco: 100 ml
+                li Crema de leche: 40 g
+                li Cebolla cabezona blanca: 30 g
+                li Ajo: 5 g
+            .col-auto.d-none.d-xl-flex
+              img(src="@/assets/curso/temas/tema3/img-7.svg" alt="imagen decorativa").img65
+      .col-lg-5.col-xl-4.order-1.order-lg-2.mb-4
+        img(src="@/assets/curso/temas/tema3/img-6.png" data-aos="fade-left" alt="plato de Risotto milanés").mx-auto
+    
+    .d-flex.flex-wrap.justify-content-center
+      .col-lg-3.mb-4
+        img(src="@/assets/curso/temas/tema3/img-8.png" data-aos="fade-left" alt="Plato con delicioso plato de pasta italiana").mx-auto
+      .col-lg-9.ps-lg-3.mb-4
+        p(data-aos="fade-left") El proceso de preparación es.
+        ol.lista-ol--cuadro
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 1
+            | Saltear la cebolla y el ajo finamente picados con mantequilla durante 1 minuto a fuego medio.
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 2
+            | Adicionar el arroz y remover constantemente para permitir que se saltee.
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 3
+            | Incorporar el vino blanco y no dejar de remover.
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 4
+            | Adicionar el azafrán mezclado con sal y pulverizado previamente en un mortero.
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 5
+            | Agregar el consomé de pollo caliente en pequeñas cantidades, permitiendo que el arroz lo absorba antes de agregar más. Este proceso toma alrededor de 13 minutos.
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 6
+            | En el minuto 15, agregar los espárragos verdes pelados y el queso parmesano. Mezclar enérgicamente para obtener una preparación cremosa.
+          li.mb-4.d-flex(data-aos="fade-left")
+            .lista-ol--cuadro__vineta.v--green
+              span.fw-bold(style="color: black") 7
+            | Servir caliente, asegurándose de que el arroz esté al dente.
+    
+    Separador
+
+    #t_3_4
+    .titulo-segundo.color-acento-contenido(data-aos="fade-left")
+      h2 3.4 Ensalada griega
 
     .d-flex.flex-wrap.justify-content-center
       .col-lg-7.pe-lg-3.mb-4.order-2.order-lg-1

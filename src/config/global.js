@@ -38,7 +38,28 @@ export default {
         numero: '1',
         titulo: 'Europa del Norte',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            numero: '1.1',
+            titulo: '<i>Gravlax</i>',
+            hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: '<i>Blinis</i>',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: '<i>Lutefisk</i>',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: '<i>Köttbullar</i>',
+            hash: 't_1_4',
+          },
+        ],
       },
 
       {
@@ -46,12 +67,56 @@ export default {
         numero: '2',
         titulo: 'Europa Central',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: '<i>Borsch</i>',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: '<i>Fondue</i>',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: '<i>Chucrut</i>',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: '<i>Pierogi</i>',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
         titulo: 'Europa del Sur',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: '<i>Paella</i> de mariscos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: '<i>Coq au vin</i>',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: '<i>Risotto</i> milanés',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Ensalada griega',
+            hash: 't_3_4',
+          },
+        ],
       },
     ],
     subMenu: [
